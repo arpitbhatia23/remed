@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/bg1.svg'
+import bg from '../assets/bg1.avif'
 import Navbar from './Navbar'
 const Home = () => {
   return (
