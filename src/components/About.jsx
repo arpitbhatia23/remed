@@ -2,10 +2,10 @@ import React from 'react'
 import about1 from '../assets/about1.avif'
 import about2 from '../assets/about2.avif'
 import about3 from '../assets/about3.avif'
-import icon1 from "../assets/image4.svg"
-import icon2 from "../assets/icon2.svg"
-import icon3 from "../assets/image6.svg"
-import icon4 from "../assets/image7.svg"
+import icon1 from "../assets/image4.avif"
+import icon2 from "../assets/icon2.avif"
+import icon3 from "../assets/image6.avif"
+import icon4 from "../assets/image7.avif"
 
 
 const About = () => {
@@ -46,7 +46,7 @@ const About = () => {
             {/* Content for the grid items can be added here */}
             {/* //first  */}
             <div className='flex flex-col justify-center items-center'>
-             <img src={icon1} alt="" className='w-[89px]'/>
+             <img src={icon1} alt="" className='w-[89px] rounded-full bg-red-400'/>
              <p className='text-2xl py-3 text-center'>COMPASSIONATE TO PATIENTS</p>
              <p className=' text-xl '>
              We try to understand the sufferings of the patients and focus on handling them with care and love by keeping their safety in mind.
@@ -54,21 +54,21 @@ const About = () => {
             </div>
             {/* // second  */}
             <div className='flex flex-col justify-center items-center'>
-             <img src={icon2} alt="" className='w-[89px]' />
+             <img src={icon2} alt="" className='w-[89px] rounded-full bg-red-400' />
              <p className='text-2xl py-3 text-center'>REPEATED SCRUTINIZING</p>
              <p className='text-xl '>
               We understand how important the correct and fair data regarding trial results are. We try to scrutinize it as much as we can to nullify the errors.</p>
             </div>
             {/* // third */}
             <div className='flex flex-col justify-center items-center'>
-             <img src={icon3} alt="" className='w-[89px]'/>
+             <img src={icon3} alt="" className='w-[89px] rounded-full bg-red-400'/>
              <p className='text-2xl py-3 text-center'>ELIGIBLE PATIENTS POOL</p>
              <p className=' text-xl'>
               At ReMed Research our efforts are to provide you with the most eligible patient pool as per your study requirements and criteria..</p>
             </div>
             {/* //fourth */}
             <div className='flex flex-col justify-center items-center'>
-             <img src={icon4} alt="" className='w-[89px]'/>
+             <img src={icon4} alt="" className='w-[89px] rounded-full bg-red-400'/>
              <p className='text-2xl py-3 text-center'>DETAIL ORIENTED</p>
              <p className=' text-xl'>
               It is a well-known fact that even a minute detail can change the game significantly. Along with the conspicuous observations we tend to focus on minute things also to provide the most fair results</p>

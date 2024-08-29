@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/ReMedReSearch.svg"
+import logo from "../assets/ReMedReSearch.avif"
 
 const Logo = () => {
   return (

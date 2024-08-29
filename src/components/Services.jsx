@@ -1,7 +1,7 @@
 import React from 'react'
-import icon1 from '../assets/image8.svg'
-import icon2 from '../assets/image9.svg'
-import icon3 from '../assets/image10.svg'
+import icon1 from '../assets/image8.avif'
+import icon2 from '../assets/image9.avif'
+import icon3 from '../assets/image10.avif'
 
 const Services = () => {
   return (

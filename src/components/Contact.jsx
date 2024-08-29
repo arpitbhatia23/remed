@@ -1,8 +1,8 @@
 import React from 'react'
-import icon1 from "../assets/image11.svg"
-import icon2 from "../assets/image12.svg"
-import icon3 from "../assets/image13.svg"
-import icon4 from "../assets/image14.svg"
+import icon1 from "../assets/image11.avif"
+import icon2 from "../assets/image12.avif"
+import icon3 from "../assets/image13.avif"
+import icon4 from "../assets/image14.avif"
 import { Link } from 'react-scroll'
 
 const Contact = () => {
