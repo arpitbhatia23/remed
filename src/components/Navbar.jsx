@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import Logo from './Logo'
 import { BiMenuAltRight } from "react-icons/bi"
 import { AiTwotoneCloseCircle } from "react-icons/ai"
-import { Link } from 'react-scroll'
-
+import {Link} from "react-scroll"
 const Navbar = () => {
   const navItems = [
     { name: "Home" },
