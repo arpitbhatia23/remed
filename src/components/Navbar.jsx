@@ -49,11 +49,14 @@ const Navbar = () => {
           {isMenuOpen ?<AiTwotoneCloseCircle size={30}/>:null}
         </button>
           {navItems.map((item) => (
+           
              <Link key={item.name} to={item.name}  smooth={true} duration={1000}>
+              <ul>
             <li  className='hover:underline'>
             <button> {item.name}</button>
            
             </li>
+            </ul>
             </Link>  
           ))}
         </ul>
