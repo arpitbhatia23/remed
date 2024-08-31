@@ -24,7 +24,7 @@ function App() {
       <meta name="description" content="ReMed Research Solutions Pvt. Ltd is a premier Site Management Organization specializing in clinical trials from Phase I to IV across India. Our expert team ensures GCP compliance, delivering accurate and efficient trial management services." />
 
       {/* Keywords */}
-      <meta name="keywords" content="Clinical Research, Site Management Organization, SMO Services, Clinical Trials India, GCP Compliance, ICH-GCP Certified, Phase I-IV Trials, Data Management in Clinical Research, Clinical Trial Implementation, Patient Recruitment for Clinical Trials" />
+      <meta name="keywords" content="Remed , remed research solution , remed reseach , remed research solution pvt ltd, remed , dhanajay kakad , remed research , remed clilical reaseach, Clinical Research, Site Management Organization, SMO Services, Clinical Trials India, GCP Compliance, ICH-GCP Certified, Phase I-IV Trials, Data Management in Clinical Research, Clinical Trial Implementation, Patient Recruitment for Clinical Trials" />
 
       {/* H1 Tag */}
       <meta name="og:title" content="ReMed Research Solutions Pvt. Ltd – Your Trusted Partner for Clinical Trial Management" />
