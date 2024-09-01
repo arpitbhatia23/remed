@@ -11,7 +11,6 @@ const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
 
