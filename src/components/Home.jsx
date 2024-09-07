@@ -24,7 +24,7 @@ const Home = () => {
         </p>
        
        <div className='py-4 sm:py-20'>
-       <Link to='About'> <button className='bg-[#00FFFF] w-20 sm:w-[131px] h-10 sm:h-[63px] ml-[28px]  flex items-center justify-center font-semibold font-frenchCanon'>Read More</button></Link>
+       <Link to='About'> <button className='bg-[#00FFFF] w-20 sm:w-[131px] h-10 sm:h-[63px] ml-[28px] rounded-lg  flex items-center justify-center font-semibold font-frenchCanon'>Read More</button></Link>
         
 
        </div>
