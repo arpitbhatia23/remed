@@ -11,7 +11,7 @@ const Contact = () => {
       <div className='flex flex-col items-center sm:items-start text-white'>
         <span className='text-[#FF0000] text-xl font-semibold mb-2'>abc ReSearch</span>
         <p className='mb-4'>
-          abc Research Solutions Pvt. Ltd is a Site Management Organization. We are involved in dealing with all clinical trials from Phase I to Phase IV. We're committed to providing and managing clinical sites with GCP compliance, ICH-GCP experienced certified medical practitioners & trained clinical research staff.
+         Remed Research Solutions Pvt. Ltd is a Site Management Organization. We are involved in dealing with all clinical trials from Phase I to Phase IV. We're committed to providing and managing clinical sites with GCP compliance, ICH-GCP experienced certified medical practitioners & trained clinical research staff.
         </p>
         <div className='flex items-center gap-x-4'>
           <img src={icon1} alt="Icon 1" className='w-8 h-8' />
@@ -32,7 +32,7 @@ const Contact = () => {
       <div className='flex flex-col items-center sm:items-start text-white'>
         <span className='text-[#FF0000] text-xl font-semibold mb-2'>Get in Touch</span>
         <p className='text-sm'>
-          Reg Office address: ABC Research Solutions Pvt. Ltd xyz pqr Chowk, kdj Tq. ab Dist. Akola xyz state Pin:12345 <br />
+          Reg Office address: Remed Research Solutions Pvt. Ltd xyz pqr Chowk, kdj Tq. ab Dist. Akola xyz state Pin:12345 <br />
           Contact: <a href="tel:+918055012965" className='hover:underline'>+91 1234567890</a> , <a href="tel:+911234567890" className='hover:underline'>+91 1234567890</a> <br />          Email: <a href="mailto:director@abd.in" className='hover:underline'>director@abd.in</a>
         </p>
       </div>
