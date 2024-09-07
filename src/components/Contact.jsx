@@ -9,9 +9,9 @@ const Contact = () => {
   return (
     <section  name="Contact us"className='bg-[#282122] w-full mt-24 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8 py-8 px-6 font-frenchCanon'>
       <div className='flex flex-col items-center sm:items-start text-white'>
-        <span className='text-[#FF0000] text-xl font-semibold mb-2'>ReMed ReSearch</span>
+        <span className='text-[#FF0000] text-xl font-semibold mb-2'>abc ReSearch</span>
         <p className='mb-4'>
-          Remed Research Solutions Pvt. Ltd is a Site Management Organization. We are involved in dealing with all clinical trials from Phase I to Phase IV. We're committed to providing and managing clinical sites with GCP compliance, ICH-GCP experienced certified medical practitioners & trained clinical research staff.
+          abc Research Solutions Pvt. Ltd is a Site Management Organization. We are involved in dealing with all clinical trials from Phase I to Phase IV. We're committed to providing and managing clinical sites with GCP compliance, ICH-GCP experienced certified medical practitioners & trained clinical research staff.
         </p>
         <div className='flex items-center gap-x-4'>
           <img src={icon1} alt="Icon 1" className='w-8 h-8' />
@@ -32,8 +32,8 @@ const Contact = () => {
       <div className='flex flex-col items-center sm:items-start text-white'>
         <span className='text-[#FF0000] text-xl font-semibold mb-2'>Get in Touch</span>
         <p className='text-sm'>
-          Reg Office address: Remed Research Solutions Pvt. Ltd Yakub Patel Chowk, Akot Tq. Akot Dist. Akola Maharashtra Pin:444101 <br />
-          Contact: <a href="tel:+918055012965" className='hover:underline'>+91 80550 12965</a> , <a href="tel:+919805653211" className='hover:underline'>+91 98056 53211</a> <br />          Email: <a href="mailto:director@remedresearch.in" className='hover:underline'>director@remedresearch.in</a>
+          Reg Office address: ABC Research Solutions Pvt. Ltd xyz pqr Chowk, kdj Tq. ab Dist. Akola xyz state Pin:12345 <br />
+          Contact: <a href="tel:+918055012965" className='hover:underline'>+91 1234567890</a> , <a href="tel:+911234567890" className='hover:underline'>+91 1234567890</a> <br />          Email: <a href="mailto:director@abd.in" className='hover:underline'>director@abd.in</a>
         </p>
       </div>
     </section>

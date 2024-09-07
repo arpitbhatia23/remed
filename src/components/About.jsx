@@ -16,7 +16,7 @@ const About = () => {
         <div className="flex flex-col w-full max-w-xl mt-16 sm:mt-24 items-center sm:items-start text-center sm:text-left">
           <h2 className="text-3xl sm:text-4xl font-semibold">About Us</h2>
           <p className="mt-6 text-base sm:text-lg">
-            ReMed Research Solutions Pvt. Ltd is a Site Management Organization. We are involved in dealing with all clinical trials from Phase I to Phase IV. We're committed to providing and managing clinical sites with GCP compliance, ICH-GCP experienced certified medical practitioners & trained clinical research staff. ReMed Research is having its wide branches of services in the healthcare sector. ReMed Research acts as Clinical Trial Implementer at various trial sites all over India and coordinates for trial implementation with CRO or Sponsors from Pharma / Biotech companies.
+            abcResearch Solutions Pvt. Ltd is a Site Management Organization. We are involved in dealing with all clinical trials from Phase I to Phase IV. We're committed to providing and managing clinical sites with GCP compliance, ICH-GCP experienced certified medical practitioners & trained clinical research staff. abcResearch is having its wide branches of services in the healthcare sector. abcResearch acts as Clinical Trial Implementer at various trial sites all over India and coordinates for trial implementation with CRO or Sponsors from Pharma / Biotech companies.
           </p>
         </div>
       </section>
@@ -64,7 +64,7 @@ const About = () => {
              <img src={icon3} alt="" className='w-[89px] rounded-full bg-red-400'/>
              <p className='text-2xl py-3 text-center'>ELIGIBLE PATIENTS POOL</p>
              <p className=' text-xl'>
-              At ReMed Research our efforts are to provide you with the most eligible patient pool as per your study requirements and criteria..</p>
+              At abcResearch our efforts are to provide you with the most eligible patient pool as per your study requirements and criteria..</p>
             </div>
             {/* //fourth */}
             <div className='flex flex-col justify-center items-center'>

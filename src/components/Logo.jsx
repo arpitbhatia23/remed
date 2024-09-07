@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className=' text-[#1400FF] text-lg  sm:text-[36.68px]'>
       {/* <img src={logo} alt="" /> */}
-      ReMed ReSearch
+      company Logo 
     </div>
   )
 }

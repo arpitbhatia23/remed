@@ -1,6 +1,7 @@
 import React from 'react'
 import bg from '../assets/bg1.avif'
 import Navbar from './Navbar'
+import { Link } from 'react-scroll'
 const Home = () => {
   return (
     <header name="Home" style={{
@@ -15,7 +16,7 @@ const Home = () => {
         <Navbar/>
  <section>
         <p className='mt-0 sm:mt-[178px] px-2 py-2 text-lg sm:text-4xl font-semibold  w-60 sm:w-[598px] h-[137px] text-white text-left ml-0 sm:ml-[28px] font-frenchCanon'> 
-        WELCOME TO REMED
+        WELCOME TO ABC
          RESEARCH SOLUTIONS Pvt. Ltd
         </p>
         <p className=' px-2  py-2 mb-6 w-52 sm:w-[445px] h-[101px] text-left text-sm sm:text-xl ml-0 sm:ml-[28px] font-semibold font-frenchCanon '>
@@ -23,7 +24,7 @@ const Home = () => {
         </p>
        
        <div className='py-4 sm:py-20'>
-        <button className='bg-[#00FFFF] w-20 sm:w-[131px] h-10 sm:h-[63px] ml-[28px]  flex items-center justify-center font-semibold font-frenchCanon'>Read More</button>
+       <Link to='About'> <button className='bg-[#00FFFF] w-20 sm:w-[131px] h-10 sm:h-[63px] ml-[28px]  flex items-center justify-center font-semibold font-frenchCanon'>Read More</button></Link>
         
 
        </div>
