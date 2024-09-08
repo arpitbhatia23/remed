@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from "../assets/ReMedReSearch.avif"
+import logo from "../assets/remed.png"
 
 const Logo = () => {
   return (
     <div className=' text-[#1400FF] text-lg  sm:text-[36.68px]'>
-      {/* <img src={logo} alt="" /> */}
-      company Logo 
+      <img src={logo} alt=""  className='w-24'/>
+      {/* company Logo  */}
     </div>
   )
 }
