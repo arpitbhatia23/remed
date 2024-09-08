@@ -6,6 +6,8 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
+    <>
+        
     <header
       name="Home"
       style={{
@@ -15,9 +17,10 @@ const Home = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
       }}
-      className="h-screen sm:h-auto"
+      className="h-screen sm:h-auto " 
     >
-      <Navbar />
+
+<Navbar />
 
       <section className="flex flex-col justify-center sm:items-start items-center text-center sm:text-left sm:px-6">
         <div className="mt-16 sm:mt-[178px] px-4 sm:px-0">
@@ -49,6 +52,8 @@ const Home = () => {
         </div>
       </section>
     </header>
+    </>
+
   );
 };
 

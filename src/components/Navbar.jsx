@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <header className=''>
-      <nav className='flex items-center justify-between py-6 px-8 font-frenchCanon backdrop-blur-[4px] border-b border-black'>
+      <nav className='flex items-center justify-between py-6 px-8 font-frenchCanon bg-[#ebedee46] '>
         <div className='flex'>
           <Logo />
         </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
           {navItems.map((item) => (
              <Link key={item.name} to={item.name}  smooth={true} duration={500}>
               
-             <li  className={(active)=>(active?`text-white`:null)}>
+             <li  className={`text-[#000000]`}>
              <button> {item.name}</button>
              </li>
              </Link> 
